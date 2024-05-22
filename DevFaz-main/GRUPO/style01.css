@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    background-color: #D8EAF8;
+    padding: 100px;
+}
+
+header {
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+    width: auto;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+#logo_devfaz {
+    background-image: url(Imagem/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+
+#Sobre {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin: 20px 0px;
+}
+#img_devfaz {
+    background-image: url(Imagem/2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+}
+h1 {
+    width: 300px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5em;
+    color: #4282b3;
+}
+#conteiner_texto > p {
+    width: 300px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+}
+#servicos {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#conteiner_servicos {
+    display: flex;
+    justify-content: space-around;
+}
+#conteiner_servicos > div > p {
+    width: 300px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+#web {
+    background-image: url("Imagem/site.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#email {
+    background-image: url("Imagem/email1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#trafego {
+    background-image: url("Imagem/tráfego.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#portfolio {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#renata {
+    background-image: url("Imagem/renata.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#igor {
+    background-image: url("Imagem/igor.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#mateus {
+    background-image: url("Imagem/mateus.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+#orcamento {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    margin-bottom: 20px;
+    justify-self: baseline;
+}
+#orcamento > p{
+    width: 300px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    justify-self: baseline;
+}
+
+footer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > p {
+    width: 300px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+   margin: auto;
+   text-align: center;
+}
+a {
+    width: 300px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+   margin: auto;
+   text-align: center;
+}
